@@ -1,6 +1,6 @@
 # PythonTutedude
 Task 1
-takes two inputs of type int and performs addition,subtraction,multiplication,division
+Enter a number and check if it is odd or even
 
 Task 2
-take 2 string inputs from user and concatenates both inputs using string formatter in python and displays the message
+using for loop,find the sum of numbers from 1 to 50
