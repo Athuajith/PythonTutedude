@@ -1,6 +1,6 @@
 # PythonTutedude
 Task 1
-Enter a number and check if it is odd or even
+Enter a number to find the fatorial of it
 
 Task 2
-using for loop,find the sum of numbers from 1 to 50
+Use math module to find the square root,log and sine of the entered number
