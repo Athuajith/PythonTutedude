@@ -1,4 +1,11 @@
-sum=0
-for i in range(1,51):
-   sum+=i
-print(f"The sum of numbers from 1 to 50 is:{sum}")
+def operation(number):
+    sq_root=math.sqrt(number)
+    log_num=math.log(number)
+    sine_num=math.sin(number)
+
+    print(f"Square root: {sq_root}")
+    print(f"Logarithm: {log_num}")
+    print(f"Sine: {sine_num}")
+
+
+operation(number)
