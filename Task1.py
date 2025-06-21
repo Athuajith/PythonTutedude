@@ -1,12 +1,10 @@
-n=int(input("Enter a number:"))
-def factorial(n):
-   if n < 0:
-     return "Entered number is negative"
-   elif n < 2:
-       return 1
-   else:
-      return  n * (factorial(n - 1))
+ef read_file(filename):
+    try:
+        with open(filename, 'r') as file:
+            for line in file:
+                print(line.strip())
+    except FileNotFoundError:
+        print(f"Error: The file '{filename}' was not found.")
 
-result=factorial(n)
-
-print(f"Factorial of {n} is: {result}")
+# Usage
+read_file('sample.txt')
