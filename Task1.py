@@ -1,9 +1,10 @@
-def read_file(filename):
-    try:
-        with open(filename, 'r') as file:
-            for line in file:
-                print(line.strip())
-    except FileNotFoundError:
-        print(f"Error: The file '{filename}' was not found.")
+name=input("Enter the student's name:").strip()
 
-read_file('sample.txt')
+def get_marks(name):
+    if not name:
+        print("Student not found")
+    else:
+        print(f"{name}'s marks:{name_score[name]}")
+
+
+get_marks(name)
